@@ -63,11 +63,26 @@ class Assistance():
         
 
 #Prueba de 500 estudiantes en 10 casos aleatorios
+print("Caso 1"*20)
 testObject=Angry_teacher(500,10)
 testObject.generator()
 testObject.tests()
-    
+#Prueba de 150 estudiantes en 7 casos aleatorios
+print("Caso 2"*20)
+testObject1=Angry_teacher(150,7)
+testObject1.generator()
+testObject1.tests()
 
+#Prueba de 50 estudiantes en 5 casos aleatorios
+print("Caso 3"*20)
+testObject2=Angry_teacher(50,5)
+testObject2.generator()
+testObject2.tests()
+#Prueba de 30 estudiantes en 3 casos aleatorios
+print("Caso 4"*20)
+testObject3=Angry_teacher(30,3)
+testObject3.generator()
+testObject3.tests()
 
         
 
